@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import './offer.css';
 
 const HeaderSimpleBanner = ({headerText,bgImg}) => {
     const HeaderSimpleBannerDiv = styled.div`
@@ -21,7 +22,7 @@ const HeaderSimpleBanner = ({headerText,bgImg}) => {
 
 
     return (
-        <HeaderSimpleBannerDiv background={bgImg}>
+        <HeaderSimpleBannerDiv background={bgImg} className="topbannerSection">
             <div className="container">{headerText}</div>
         </HeaderSimpleBannerDiv>
     );

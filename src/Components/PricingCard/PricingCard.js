@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import cardImg from "../../images/tropical-spa-resort-concept-plumeria-hot-stones-to-N-1.jpg"
 import cardLogo from "../../images/favlogo.png"
-
+import './pricing.css';
 
 
 
@@ -17,7 +17,8 @@ const PricingCardDiv = styled.div`
     box-sizing: border-box;
     height: ${(props) => props.height || "200px"};
     overflow: hidden;
-    border: 2px double pink;
+    border-radius:15px;
+
     transition: 0.3s;
     cursor: pointer;
     &:hover {
@@ -28,6 +29,8 @@ const PricingCardDiv = styled.div`
         h6,
         p {
             font-size: 12px;
+            color: #fff;
+            z-index: 60000;
         }
     }
     .card-logo {

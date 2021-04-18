@@ -3,12 +3,13 @@ import PricingCard from '../../Components/PricingCard/PricingCard';
 import Slider from '../../Components/Slider/Slider';
 import {pricingSlidercontent, sliderItems} from "./HomePageSliderContent"
 
+
 const PricingSlider = ({towCard}) => {
 
         const twoPricingCardContent = [1,2,34,5,5].map(item => {
             return (
                 <div style={{ width: "510px"  }} className="pricing-card-item">
-                    <PricingCard height={"250px"}/>
+                    <PricingCard height={"250px"} />
                 </div>
             );
         })
