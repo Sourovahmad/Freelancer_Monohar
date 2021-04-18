@@ -1,7 +1,4 @@
-#sign-in {
-  /* this is only for sign up page */
-  /* this is only for otp varification page */
-}
+
 
 #sign-in header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.5)));
@@ -23,6 +20,8 @@
   padding: 30px 50px;
   margin: auto;
 }
+
+
 
 #sign-in .first-page .sign-in-box .sign-in h4 {
   font-size: 18px;
@@ -162,3 +161,15 @@
   font-size: 18px;
 }
 /*# sourceMappingURL=LoginReleted.css.map */
+
+@media screen and (max-width: 1024px) {
+  #sign-in .sign-in-box{
+    width: 100%;
+  }
+  .sign-in{
+    width: 90%;
+  }
+  .text-input{
+    display: none;
+  }
+}

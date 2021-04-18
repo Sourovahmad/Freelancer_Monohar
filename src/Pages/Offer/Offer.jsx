@@ -4,6 +4,8 @@ import manHeirCuttingImg from "../../images/stylish-barber-grooming-a-mans-beard
 import PricingSlider from '../Home/PricingSlider';
 import Slider from '../../Components/Slider/Slider';
 
+
+
 const Offer = () => {
     return (
         <div id="offerPage">
@@ -17,7 +19,6 @@ const Offer = () => {
             }
             bgImg={manHeirCuttingImg}
             />
-
 
 
             <section id="men-serivce">

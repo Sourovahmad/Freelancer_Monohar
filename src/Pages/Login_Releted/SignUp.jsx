@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './new.css'
+import topImg from '../../images/Group 24.png';
 const SignUp = () => {
     return (
         <div id="sign-in">
             <section class="second-page">
+
+            <div className="mobile-img">
+                     <img src={topImg} alt=""/>
+                 </div>
         <div class="sign-in-box">
             <div class="sign-in">
                 <h4>Sign in</h4>

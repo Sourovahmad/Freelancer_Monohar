@@ -41,6 +41,13 @@ function App() {
         <Route exact path="/review">
           <Appointment/>
         </Route>
+
+       
+
+       
+
+
+
       </Switch>
       <Footer/>
     </Router>

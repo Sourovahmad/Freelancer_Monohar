@@ -1,5 +1,6 @@
 import React from 'react';
-import man_woman from "../../images/cupol-image.png"
+import man_woman from "../../images/cupol-image.png";
+
 
 const Refer = () => {
     return (
@@ -30,7 +31,7 @@ const Refer = () => {
                 </div>
 
                 <div className="container">
-                    <div className="shadow w-75 mx-auto">
+                    <div className="shadow mx-auto" id="shadow">
                         <table className="table border table-striped table-light  rounded mb-0   mx-auto">
                             <tr className="border-bottom">
                                 <th className="col p-5 pb-3 mb-2 text-start">Weakly Rank</th>
