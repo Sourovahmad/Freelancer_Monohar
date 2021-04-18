@@ -55,5 +55,25 @@
     transform: translate(-50%, -50%);
 }
 .ReactModal__Overlay{
-    background:#0202026e  !important
+    background:#0202026e  !important;
+}
+
+#mobile-navbar .navbar-list-item ul .cancel-icon {
+    top: 10px !important ;
+    right: 20px;
+    position: absolute;
+}
+
+#mobile-navbar .navbar-list-item ul .navbar-items {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#mobile-navbar .navbar-list-item ul .navbar-items li {
+    list-style: none;
+    width: 100% !important;
+}
+#mobile-navbar .navbar-list-item ul .navbar-items li a {
+    width: 100% !important;
+    text-align: center;
 }

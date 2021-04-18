@@ -35,7 +35,7 @@ const TestomonialSlider = () => {
                             <div className="col-2">
                                 <img className="img-fluid" src={quote_icon} alt=""/>
                             </div>
-                            <div className="col-10">
+                            <div className="col-10 col-md-10 col-sm-12">
                                 <p className="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis iusto quod voluptatibus nulla saepe asperiores dolores doloribus earum pariatur aut temporibus, in dolore praesentium laboriosam aliquam nostrum cum a reprehenderit. Quaerat, obcaecati magni hic in aliquam nam doloremque quam!</p>
 
                                 <div className="p-2"></div>

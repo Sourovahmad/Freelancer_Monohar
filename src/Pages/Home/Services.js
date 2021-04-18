@@ -14,7 +14,7 @@ const Services = () => {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, exercitationem!</p>
                             </div>
 
-                            <div className="row row-cols-6 justify-content-center">
+                            <div className="row row-cols-2 row-cols-md-3  row-cols-lg-6 justify-content-center">
                                {
                                    ServiceIconData.map(item=> <Servicesbox text={item.name} image={item.iconImg}/>)
                                }
@@ -31,7 +31,7 @@ const Services = () => {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, exercitationem!</p>
                             </div>
 
-                            <div className="row row-cols-6 justify-content-center">
+                            <div className="row row-cols-2 row-cols-md-3  row-cols-lg-6 justify-content-center">
                                 {
                                    ServiceIconData.map(item=> <Servicesbox text={item.name} image={item.iconImg}/>)
                                }
