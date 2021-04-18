@@ -8,7 +8,11 @@
 
 @media screen  and (max-width: 1024px) {
     header, .second-page{
-        background: #fff !important;
+        background: #FFF3F5 !important;
+    }
+
+   .third-page{
+        background: #FFF3F5 !important;
     }
     .sign-in-box{
         width: 100% !important;

@@ -43,10 +43,10 @@ const Appointment = () => {
                     </li>
                 </ul>
 
-                <div className="row py-5">
+                <div className="flex-box">
                     <div className="col-2">
                         <h6>
-                            <i class="fas fa-sliders-h p-3 rounded-circle"></i>filter
+                            <i className="fas fa-sliders-h p-3 rounded-circle"></i>filter
                         </h6>
                     </div>
                     <div className="col-7">
@@ -57,7 +57,7 @@ const Appointment = () => {
                             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
                         </div>
                     </div>
-                    <div className="col-3 d-flex">
+                    <div className="col-3 d-flex m-a-auto-text">
                         <h6 className="d-flex align-items-center justify-content-center">
                             <h6 className="me-2">Show </h6>
                             <select class="form-select" aria-label=".form-select-lg example">
@@ -70,6 +70,9 @@ const Appointment = () => {
                     </div>
                     <hr />
                 </div>
+
+
+
 
                 {/* tab content here */}
                 <div class="tab-content" id="myTabContent">
@@ -85,6 +88,7 @@ const Appointment = () => {
 
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div className="container">
+
                             <div className="row">
                                 {[1, 2, 4, 5, 6, 7, 8, 9, 10].map((item) => (
                                     <ReviewCard openModal={openModal} img={review_img} />

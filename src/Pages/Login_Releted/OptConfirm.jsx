@@ -1,10 +1,15 @@
 import React from "react";
 import './new.css';
+import Bgimg from '../../images/Mask_Group_30-removebg-preview.png'
 
 const OptConfirm = () => {
     return (
         <div id="sign-in">
             <section class="third-page">
+
+                <div className="mobile-img">
+                <img src={Bgimg} alt=""/>
+                </div>
                 <div class="sign-in-box">
                     <div class="sign-in">
                         <h4>OTP varification</h4>

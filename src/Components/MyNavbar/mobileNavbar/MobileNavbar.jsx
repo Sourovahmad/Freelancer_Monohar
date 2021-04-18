@@ -51,23 +51,23 @@ const MobileNavbar = () => {
                 <ul>
                     <div className="navbar-items">
                         <li className="item">
-                            <Link>item-1</Link>
+                            <Link to="/">Home</Link>
                             <hr />
                         </li>
                         <li className="item">
-                            <Link>item-2</Link>
+                            <Link to="/offer">Offer</Link>
                             <hr />
                         </li>
                         <li className="item">
-                            <Link>item-3</Link>
+                            <Link to="/review">Appointment</Link>
                             <hr />
                         </li>
                         <li className="item">
-                            <Link>item-4</Link>
+                            <Link to="/blog">Blog</Link>
                             <hr />
                         </li>
                         <li className="item">
-                            <Link>item-5</Link>
+                            <Link to="/refer">Refer</Link>
                             <hr />
                         </li>
                     </div>
