@@ -1,13 +1,10 @@
 import React from "react";
 import Modal from "react-modal";
+import './card-responsive.css';
 
 const customStyles = {
     content: {
-        top: "50%",
-        left: "50%",
         width:"60%",
-        right: "auto",
-        bottom: "auto",
         marginRight: "-50%",
         transform: "translate(-50%, -50%)",
     },
@@ -30,7 +27,7 @@ function MyModal({isModalOpen, setIsOpen, children}) {
 
     return (
         <div>
-            <Modal isOpen={isModalOpen} onAfterOpen={afterOpenModal} onRequestClose={closeModal} style={customStyles} contentLabel="Example Modal">
+            <Modal className="mobile-mia" isOpen={isModalOpen} onAfterOpen={afterOpenModal} onRequestClose={closeModal} style={customStyles} contentLabel="Example Modal">
                 {children}
             </Modal>
         </div>
