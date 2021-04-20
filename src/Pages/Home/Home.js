@@ -9,6 +9,7 @@ import TestomonialSlider from "./TestomonialSlider";
 import male from "../../images/man.png"
 import famle from "../../images/woman-famle.png"
 import Footer from "../../Components/Footer/Footer";
+import ServicesSlider from "./servicesSlider";
 
 const Home = () => {
     return (
@@ -33,8 +34,38 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+             
+             <div id="services-for-webview">
+             <Services />
+             </div>
 
-            <Services />
+
+
+                <div id="services-mobileview">
+                 
+                 <div className="slider-upper-section d-flex ms-4 me-4">
+                      <h6 className="text-left font-weight-bold"> Appointment</h6>
+                 </div>
+               <ServicesSlider/>
+
+
+                </div>
+
+
+                <div id="services-mobileview">
+                 
+                 <div className="slider-upper-section d-flex ms-4 me-4">
+                      <h6 className="text-left font-weight-bold"> Appointment</h6>
+                 </div>
+               <ServicesSlider/>
+
+
+                </div>
+
+
+
+
+            
             <PricingSlider />
 
             <div id="feature-shop" className="py-5">

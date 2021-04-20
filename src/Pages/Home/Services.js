@@ -3,7 +3,7 @@ import Servicesbox from '../../Components/ServicesBox/Servicesbox';
 import {ServiceIconData} from "../../Components/iconJson/serviceIcon"
 
 const Services = () => {
-    return (
+    return ( 
         <div>
             <div id="service">
                 <div id="appointment" className="pt-5">

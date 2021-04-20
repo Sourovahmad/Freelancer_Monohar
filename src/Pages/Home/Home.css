@@ -18,6 +18,35 @@
   #homePage header#header-section .alice-carousel {
     width: 95vw;
   }
+    
+
+  #services-for-webview{
+    display: none !important;
+  }
+
+ #services-mobileview{
+   display: block !important;
+ }
+
+ #services-mobileview .alice-carousel .alice-carousel__prev-btn , #services-mobileview .alice-carousel .alice-carousel__next-btn  {
+   display: none !important;
+ }
+
+ #services-mobileview .alice-carousel .alice-carousel__dots {
+  display: none !important;
+}
+
+#services-mobileview .slider-upper-section{
+         border-bottom: 1px solid #000 !important;
+}
+
+#services-mobileview .slider-upper-section .text-right{
+ float:right !important; 
+
+}
+
+
+
 }
 
 #homePage header#header-section .alice-carousel .alice-carousel__prev-btn-item, #homePage header#header-section .alice-carousel .alice-carousel__next-btn-item {
@@ -351,6 +380,10 @@
   font-size: 18px;
 }
 /*# sourceMappingURL=Home.css.map */
+
+#services-mobileview{
+  display: none;
+}
 
 
 

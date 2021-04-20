@@ -10,7 +10,7 @@ const ShopCardSlider = () => {
     background:white;
     padding:20px;
     cursor: pointer;
-    transition:0.3s;
+    transition:0.3s; 
     &:hover{
         img{
             transform:scale(0.9)
